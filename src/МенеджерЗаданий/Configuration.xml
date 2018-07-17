@@ -142,7 +142,7 @@
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
 			<ModalityUseMode>Use</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
-			<InterfaceCompatibilityMode>Version8_2</InterfaceCompatibilityMode>
+			<InterfaceCompatibilityMode>Version8_2EnableTaxi</InterfaceCompatibilityMode>
 			<CompatibilityMode>Version8_2_16</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
