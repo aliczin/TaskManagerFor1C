@@ -2,3 +2,5 @@
 
 /tests/*
 !/tests/README.md
+ib
+/src/МенеджерЗаданий/ConfigDumpInfo.xml
