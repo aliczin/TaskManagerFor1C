@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -7,13 +7,11 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ЗапуститьМенеджераЗаданий</CommandName>
-				<Parameter xsi:nil="true"/>
 				<ExtendedTooltip name="ЗапуститьМенеджераЗаданийExtendedTooltip" id="55"/>
 			</Button>
 			<Button name="ОстановитьМенеджераЗаданийИИсполнителей" id="2">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ОстановитьМенеджераЗаданийИИсполнителей</CommandName>
-				<Parameter xsi:nil="true"/>
 				<ExtendedTooltip name="ОстановитьМенеджераЗаданийИИсполнителейExtendedTooltip" id="56"/>
 			</Button>
 			<Button name="ОтменитьЗаданияВОчереди" id="31">
@@ -21,7 +19,6 @@
 				<Representation>PictureAndText</Representation>
 				<OnlyInAllActions>false</OnlyInAllActions>
 				<CommandName>Form.Command.ОтменитьВсеЗаданияВОчереди</CommandName>
-				<Parameter xsi:nil="true"/>
 				<Picture>
 					<xr:Ref>StdPicture.Clear</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -31,7 +28,6 @@
 			<Button name="ПринудительноОбновитьДанныеПоИсполнителямИЗаданиям" id="40">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ПринудительноОбновитьДанныеПоИсполнителямИЗаданиям</CommandName>
-				<Parameter xsi:nil="true"/>
 				<Picture>
 					<xr:Ref>StdPicture.Refresh</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -112,7 +108,6 @@
 								<Button name="СохранитьОграничениеПоКоличествуИсполнителей" id="25">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.СохранитьОграничениеПоКоличествуИсполнителей</CommandName>
-									<Parameter xsi:nil="true"/>
 									<ExtendedTooltip name="СохранитьОграничениеПоКоличествуИсполнителейExtendedTooltip" id="62"/>
 								</Button>
 							</ChildItems>
@@ -145,7 +140,6 @@
 								<Button name="СохранитьГлубинуХраненияИстории" id="51">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.СохранитьГлубинуХраненияИстории</CommandName>
-									<Parameter xsi:nil="true"/>
 									<ExtendedTooltip name="СохранитьГлубинуХраненияИсторииExtendedTooltip" id="64"/>
 								</Button>
 							</ChildItems>
@@ -153,7 +147,6 @@
 						<Button name="ФормаНастройки" id="54">
 							<Type>Hyperlink</Type>
 							<CommandName>Form.Command.Настройки</CommandName>
-							<Parameter xsi:nil="true"/>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -165,7 +158,6 @@
 						<Button name="ОчередьЗаданий" id="81">
 							<Type>Hyperlink</Type>
 							<CommandName>Form.Command.ОчередьЗаданий</CommandName>
-							<Parameter xsi:nil="true"/>
 							<ExtendedTooltip name="ОчередьЗаданийРасширеннаяПодсказка" id="82"/>
 						</Button>
 					</ChildItems>
